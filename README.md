@@ -1,6 +1,7 @@
 # chat_app_ui
 
 Chat App UI
+Code Credits - https://www.freecodecamp.org/news/build-a-chat-app-ui-with-flutter/
 
 ## Getting Started
 
