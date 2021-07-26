@@ -1,5 +1,5 @@
+import 'package:chat_app_ui/screens/channelChatDetailPage.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class ChannelList extends StatefulWidget {
@@ -23,7 +23,11 @@ class _ChannelListState extends State<ChannelList> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return ChannelDetailPage();
+        }));
+      },
       child: Container(
         padding: EdgeInsets.only(left: 16,right: 16,top: 10,bottom: 10),
         child: Row(
